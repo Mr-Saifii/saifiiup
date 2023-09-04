@@ -39,13 +39,6 @@ import subprocess
 import random
 
 
-def rand_between(min, max):
-    return str(random.randint(min, max))
-
-
-def rand_string(length):
-    return ''.join(random.choices(string.ascii_letters + string.digits, k=length))
-
 
 def basic(uid, f, l):
     global loop, cpu, oku
